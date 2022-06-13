@@ -1,0 +1,132 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+  }
+
+body {
+    margin: 0;
+    font-family: myFirstFont;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 0px 100px;
+}
+
+.content {
+display: flex;
+flex-direction: row;
+background-color: #1f2937;
+padding: 0px 100px;
+align-items: center;
+}
+
+.white-part {
+text-align: center;
+
+}
+
+.quote {
+    
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.end-part {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.righty {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+li {
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.right-side {
+    color: #f9faf8;
+    border-width: thin;
+    background-color: #acadaf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    width: 800px;
+    height: 150px;
+}
+
+.for-img {
+   
+
+}
+
+.maintext {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0px;
+}
+.secondtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+button {
+    color: #f9faf8;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-color: #3882F6;
+    border-style: solid;
+    padding: 4px;
+    margin: 5px 0px;
+}
+
+.some-info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+    
