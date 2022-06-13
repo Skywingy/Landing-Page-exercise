@@ -48,15 +48,39 @@ text-align: center;
     flex-direction: row;
     justify-content: center;
 }
+.container4 {
+    display: flex;
+    justify-content: center;
+
+}
+
+
 .end-part {
 display: flex;
 flex-direction: row;
 justify-content: space-around;
+box-sizing: content-box;
+    width: 800px;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #f9faf8;
+
 }
 
 .righty {
     display: flex;
     align-items: center;
+}
+
+.lefty {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.signup {
+    margin: 0;
 }
 
 footer {
@@ -132,4 +156,3 @@ button {
     font-weight: bolder;
     color: #1f2937;
 }
-    
