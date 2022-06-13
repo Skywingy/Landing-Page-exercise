@@ -42,10 +42,6 @@ text-align: center;
 
 }
 
-.quote {
-    
-
-}
 
 .cards {
     display: flex;
@@ -67,6 +63,7 @@ footer {
     display: flex;
     justify-content: center;
     background-color: #1f2937;
+    color: #e5e7eb;
 }
 
 li {
@@ -92,8 +89,14 @@ a {
     height: 150px;
 }
 
-.for-img {
-   
+.quote {
+   background-color: #E5E7EB;
+   color: #1f2937;
+   font-size: 36px;
+   font-weight: lighter;
+   font-style: italic;
+   display: flex;
+   flex-direction: column;
 
 }
 
