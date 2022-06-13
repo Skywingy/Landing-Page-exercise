@@ -1,7 +1,3 @@
-@font-face {
-    font-family: myFirstFont;
-    src: url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
-  }
 
 body {
     margin: 0;
@@ -17,6 +13,7 @@ ul {
 .container {
     display: flex;
     flex-direction: column;
+    font-family: 'Lato', sans-serif;
 
 }
 
